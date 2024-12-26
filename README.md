@@ -62,6 +62,30 @@
 | BALCONY 2BR    | `{"data":"masterLight","CMD":1067,"Time":1001,"address":1,"slave":0,"bit":7,"status":0,"OK":0}`   |
 | STORAGE 2BR    | `{"data":"masterLight","CMD":1067,"Time":1001,"address":1,"slave":0,"bit":8,"status":0,"OK":0}`   |
 
+
+### Update Switch Toilet Prevent Stuck
+
+#### 1BR
+
+| Description    | Payload                                                                                           |
+|----------------|---------------------------------------------------------------------------------------------------|
+| LEFT & MIDDLE - DOWNLIGHT 2    | `{"data":"pairSwitch","CMD":4000,"Time":1001,"address":1,"slave":0,"gang":2,"bit":7,"rfcode":[255,255,255,0],"OK":0}`   |
+| RIGHT & MIDDLE - SMART GLASS 2 | `{"data":"pairSwitch","CMD":4000,"Time":1001,"address":1,"slave":0,"gang":2,"bit":8,"rfcode":[255,255,255,0],"OK":0}`   |
+
+#### 2BR MASTER
+
+| Description    | Payload                                                                                           |
+|----------------|---------------------------------------------------------------------------------------------------|
+| LEFT & MIDDLE - DOWNLIGHT 2    | `{"data":"pairSwitch","CMD":4000,"Time":1001,"address":1,"slave":2,"gang":1,"bit":7,"rfcode":[255,255,255,0],"OK":0}`   |
+| RIGHT & MIDDLE - SMART GLASS 2 | `{"data":"pairSwitch","CMD":4000,"Time":1001,"address":1,"slave":2,"gang":1,"bit":9,"rfcode":[255,255,255,0],"OK":0}`   |
+
+#### 2BR GUEST
+
+| Description    | Payload                                                                                           |
+|----------------|---------------------------------------------------------------------------------------------------|
+| LEFT & MIDDLE - DOWNLIGHT 2    | `{"data":"pairSwitch","CMD":4000,"Time":1001,"address":1,"slave":3,"gang":1,"bit":7,"rfcode":[255,255,255,0],"OK":0}`   |
+| RIGHT & MIDDLE - SMART GLASS 2 | `{"data":"pairSwitch","CMD":4000,"Time":1001,"address":1,"slave":3,"gang":1,"bit":9,"rfcode":[255,255,255,0],"OK":0}`   |
+
 ### Update Scenario Relax 1BR
 
 #### 1 BR Dim 25%, Bed Head Off, Sym Bright 25%
