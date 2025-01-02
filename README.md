@@ -14,12 +14,12 @@
 | OTA LVGL 1 (L)  | `{"data":"updateOTA","CMD":1111,"Time":1001,"address":1,"slave":0,"OTA":14,"action":1,"OK":0}`    |
 | OTA LVGL 2 (M)  | `{"data":"updateOTA","CMD":1111,"Time":1001,"address":1,"slave":0,"OTA":15,"action":1,"OK":0}`    |
 | OTA LVGL 3 (G)  | `{"data":"updateOTA","CMD":1111,"Time":1001,"address":1,"slave":0,"OTA":16,"action":1,"OK":0}`    |
-| OTA DIM 1 (L)   | `{"data":"updateOTA","CMD":1111,"Time":1001,"address":1,"slave":0,"OTA":3,"action":1,"OK":0}`     |
-| OTA DIM 2 (L)   | `{"data":"updateOTA","CMD":1111,"Time":1001,"address":1,"slave":0,"OTA":4,"action":1,"OK":0}`     |
+<!-- | OTA DIM 1 (L)   | `{"data":"updateOTA","CMD":1111,"Time":1001,"address":1,"slave":0,"OTA":3,"action":1,"OK":0}`     | -->
+<!-- | OTA DIM 2 (L)   | `{"data":"updateOTA","CMD":1111,"Time":1001,"address":1,"slave":0,"OTA":4,"action":1,"OK":0}`     | -->
 | OTA KIN (L)     | `{"data":"updateOTA","CMD":1111,"Time":1001,"address":1,"slave":0,"OTA":5,"action":1,"OK":0}`     |
-| OTA DIM (M)     | `{"data":"updateOTA","CMD":1111,"Time":1001,"address":1,"slave":2,"OTA":3,"action":1,"OK":0}`     |
+<!-- | OTA DIM (M)     | `{"data":"updateOTA","CMD":1111,"Time":1001,"address":1,"slave":2,"OTA":3,"action":1,"OK":0}`     | -->
 | OTA KIN (M)     | `{"data":"updateOTA","CMD":1111,"Time":1001,"address":1,"slave":2,"OTA":4,"action":1,"OK":0}`     |
-| OTA DIM (G)     | `{"data":"updateOTA","CMD":1111,"Time":1001,"address":1,"slave":3,"OTA":3,"action":1,"OK":0}`     |
+<!-- | OTA DIM (G)     | `{"data":"updateOTA","CMD":1111,"Time":1001,"address":1,"slave":3,"OTA":3,"action":1,"OK":0}`     | -->
 | OTA KIN (G)     | `{"data":"updateOTA","CMD":1111,"Time":1001,"address":1,"slave":3,"OTA":4,"action":1,"OK":0}`     |
 
 ### Download IR Copy Data Hisense Off
