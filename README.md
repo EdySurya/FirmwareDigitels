@@ -119,7 +119,7 @@
 |-------------------------|---------------------------------------------------------------------------------------------------|
 | BIT 1, 25% 2BR          | `{"data":"seqScenario","CMD":1077,"Time":1001,"address":1,"slave":2,"scenario":4,"type":1,"bit":1,"status":20,"OK":0}` |
 | BIT 2,3 25% 2BR         | `{"data":"seqScenario","CMD":1077,"Time":1001,"address":1,"slave":2,"scenario":4,"type":1,"bit":2,"status":64,"OK":0}` |
-| BIT 7,9 OFF 2BR         | `{"data":"seqScenario","CMD":1077,"Time":1001,"address":1,"slave":2,"scenario":4,"type":2,"bit":13,"status":0,"OK":0}` |
+| BIT 7,9 OFF 2BR         | `{"data":"seqScenario","CMD":1077,"Time":1001,"address":1,"slave":2,"scenario":4,"type":2,"bit":7,"status":0,"OK":0}` |
 | SYM 2 (MASTER) BRIGHT 25% | `{"data":"sympScenario","CMD":1078,"Time":1001,"address":1,"slave":0,"scenario":4,"symphony":2,"R":255,"G":89,"B":11,"speed":35,"bright":64,"mode":1,"LedPoint":40,"OK":0}` |
 
 #### 2 BR Guest Dim 25%, Bed Head & Bed Track Off, Sym 3 Bright 25%
@@ -128,7 +128,7 @@
 |-------------------------|---------------------------------------------------------------------------------------------------|
 | BIT 1, 25% 2BR          | `{"data":"seqScenario","CMD":1077,"Time":1001,"address":1,"slave":3,"scenario":4,"type":1,"bit":1,"status":20,"OK":0}` |
 | BIT 2,3 25% 2BR         | `{"data":"seqScenario","CMD":1077,"Time":1001,"address":1,"slave":3,"scenario":4,"type":1,"bit":2,"status":64,"OK":0}` |
-| BIT 7,9 OFF 2BR         | `{"data":"seqScenario","CMD":1077,"Time":1001,"address":1,"slave":3,"scenario":4,"type":2,"bit":13,"status":0,"OK":0}` |
+| BIT 7,9 OFF 2BR         | `{"data":"seqScenario","CMD":1077,"Time":1001,"address":1,"slave":3,"scenario":4,"type":2,"bit":7,"status":0,"OK":0}` |
 | SYM 3 (GUEST) BRIGHT 25% | `{"data":"sympScenario","CMD":1078,"Time":1001,"address":1,"slave":0,"scenario":4,"symphony":3,"R":255,"G":89,"B":11,"speed":35,"bright":64,"mode":1,"LedPoint":40,"OK":0}` |
 
 ### Update Scenario Balcony - Storage Off 2BR
