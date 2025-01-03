@@ -61,21 +61,21 @@
 
 ### Update Switch Toilet Prevent Stuck
 
-#### 1BR
+#### 1BR (RF CODE : LM = L+1, RM=R+1)
 
 | Description    | Payload                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------|
 | LEFT & MIDDLE - DOWNLIGHT 2    | `{"data":"pairSwitch","CMD":4000,"Time":1001,"address":1,"slave":0,"gang":2,"bit":7,"rfcode":[255,255,255,0],"OK":0}`   |
 | RIGHT & MIDDLE - SMART GLASS 2 | `{"data":"pairSwitch","CMD":4000,"Time":1001,"address":1,"slave":0,"gang":2,"bit":8,"rfcode":[255,255,255,0],"OK":0}`   |
 
-#### 2BR MASTER
+#### 2BR MASTER (RF CODE : LM = L+1, RM=R+1)
 
 | Description    | Payload                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------|
 | LEFT & MIDDLE - DOWNLIGHT 2    | `{"data":"pairSwitch","CMD":4000,"Time":1001,"address":1,"slave":2,"gang":1,"bit":7,"rfcode":[255,255,255,0],"OK":0}`   |
 | RIGHT & MIDDLE - SMART GLASS 2 | `{"data":"pairSwitch","CMD":4000,"Time":1001,"address":1,"slave":2,"gang":1,"bit":9,"rfcode":[255,255,255,0],"OK":0}`   |
 
-#### 2BR GUEST
+#### 2BR GUEST (RF CODE : LM = L+1, RM=R+1)
 
 | Description    | Payload                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------|
