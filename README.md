@@ -26,6 +26,14 @@
 | IR COPY SL 2 | `{"data":"IRACdata","CMD":1010,"Time":1001,"address":1,"AC":3,"brand":"Hisense","slot":"Copy4","OK":0}` |
 | IR COPY SL 3 | `{"data":"IRACdata","CMD":1010,"Time":1001,"address":1,"AC":4,"brand":"Hisense","slot":"Copy4","OK":0}` |
 
+### EMS SEQ IR Copy Data Hisense Off
+
+| Description  | Payload                                                                                           |
+|--------------|---------------------------------------------------------------------------------------------------|
+| EMS SEQ AC SL 1 (INDEX 0-2) | `{"data":"SequenceAC","CMD":1034,"Time":1001,"address":1,"AC":2,"bit":12,"index":0,"OK":0}` |
+| EMS SEQ AC SL 2 (INDEX 0-2) | `{"data":"SequenceAC","CMD":1034,"Time":1001,"address":1,"AC":3,"bit":12,"index":0,"OK":0}` |
+| EMS SEQ AC SL 3 (INDEX 0-2) | `{"data":"SequenceAC","CMD":1034,"Time":1001,"address":1,"AC":4,"bit":12,"index":0,"OK":0}` |
+
 ### Config LCD Masking Bit 8 to Copy Data Bit 12 Off
 
 #### 1BR
