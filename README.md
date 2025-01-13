@@ -147,3 +147,9 @@
 |-------------------------|---------------------------------------------------------------------------------------------------|
 | BIT 7 - Scenario 2,3,4  | `{"data":"seqScenario","CMD":1077,"Time":1001,"address":1,"slave":0,"scenario":2,"type":1,"bit":7,"status":0,"OK":0}` |
 | BIT 8 - Scenario 2,3,4  | `{"data":"seqScenario","CMD":1077,"Time":1001,"address":1,"slave":0,"scenario":2,"type":1,"bit":8,"status":0,"OK":0}` |
+
+### Pair Switch Combination LM, MR to Repeater MASTER OR GUEST via websoket
+| Description             | Payload                                                                                           |
+|-------------------------|---------------------------------------------------------------------------------------------------|
+| LM  | `{"rfcode":[255,255,255,0],"CMD":2003,"Time":1,"bit":4,"OK":0}` |
+| MR  | `{"rfcode":[255,255,255,0],"CMD":2003,"Time":1,"bit":5,"OK":0}` |
